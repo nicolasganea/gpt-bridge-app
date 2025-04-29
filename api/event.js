@@ -11,7 +11,7 @@ export default async function handler(req, res) {
 
   try {
     const response = await axios.post(
-      'https://eongh48k3r3unw8.m.pipedream.net', // 🚨 YOUR PIPEDREAM WEBHOOK
+      'https://eongh48k3r3unw8.m.pipedream.net', // 🚨 YOUR PIPEDREAM WEBHOOK URL
       payload,
       { headers: { 'Content-Type': 'application/json' } }
     );
